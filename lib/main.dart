@@ -1,5 +1,4 @@
-import 'package:challenges/challenge1/ui/screen/challenge1_task.dart';
-import 'package:challenges/challenge2/challenge2.dart';
+import 'package:challenges/challenge2/screens/challenge2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class ChallengesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Challenge1(),
+      home: DraggableTask(),
       );
   }
 }
