@@ -50,7 +50,9 @@ class _Challenge1State extends State<Challenge1> {
 
   @override
   Widget build(BuildContext context) {
-    return ReorderableListView.builder(
+    return Scaffold(
+      appBar: AppBar(title: const Text('Reorderable Task List')),
+      body:  ReorderableListView.builder(
       buildDefaultDragHandles: false,
       padding: const EdgeInsets.symmetric(vertical: 8),
       itemCount: tasks.length,
@@ -69,6 +71,9 @@ class _Challenge1State extends State<Challenge1> {
           confirmDelete: _confirmDelete,
         );
       },
+    ),
+
     );
-  }
+
+     }
 }
