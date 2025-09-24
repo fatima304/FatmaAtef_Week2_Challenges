@@ -26,6 +26,6 @@ Each challenge is implemented in a separate screen.
 
 ## Demo
 
-assets/reorder_list.gif
-assets/draggable_balls.gif
-assets/dots.gif
+![App Demo] assets/reorder_list.gif
+![App Demo] assets/draggable_balls.gif
+![App Demo] assets/dots.gif
