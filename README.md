@@ -25,7 +25,7 @@ Each challenge is implemented in a separate screen.
   - Built using **AnimationController** and **Tween**.
 
 ## Demo
+![reorder_list](https://github.com/user-attachments/assets/dce319d5-b3c7-440f-ac29-7dc8ec162a5b)
+![draggable_balls](https://github.com/user-attachments/assets/69e9e837-6e9d-4450-8054-101d7127106b)
+![dots](https://github.com/user-attachments/assets/13f7f9f6-2c18-421a-934c-42dcb73c0a27)
 
-assets/reorder_list.gif
-assets/draggable_balls.gif
-assets/dots.gif
