@@ -1,16 +1,31 @@
-# challenges
+# Flutter Challenges
 
-A new Flutter project.
+This project contains 3 small Flutter challenges (demos), each focusing on a different widget or concept.  
+Each challenge is implemented in a separate screen.
+---
+## 📌 Challenge 1: Task Manager
+- Uses **Dismissible** with **ReorderableListView**.
+- Features:
+  - Delete a task with confirmation dialog.
+  - Undo delete using a Snackbar.
+  - Reorder tasks by drag & drop.
 
-## Getting Started
+## 📌 Challenge 2: Draggable Balls
+- Uses **Draggable** + **DragTarget**.
+- Features:
+  - Drag colored balls (Red, Green, Blue) to their matching targets.
+  - Shows success message for correct drop.
+  - Shows error message for wrong drop.
 
-This project is a starting point for a Flutter application.
+## 📌 Challenge 3: Loading Dots Animation
+- Simple loading indicator animation.
+- Features:
+  - 3 dots animated sequentially.
+  - Animation includes scaling and fading (opacity).
+  - Built using **AnimationController** and **Tween**.
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+assets/reorder_list.gif
+assets/draggable_balls.gif
+assets/dots.gif
