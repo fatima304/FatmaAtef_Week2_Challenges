@@ -25,7 +25,7 @@ class Dots extends StatelessWidget {
               width: 16,
               height: 16,
               decoration: const BoxDecoration(
-                color: Colors.blue,
+                color: Color.fromARGB(255, 134, 22, 129),
                 shape: BoxShape.circle,
               ),
             ),
